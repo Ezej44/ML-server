@@ -74,7 +74,7 @@ app.get('/items', function (req, res) {
 	let server = api + '/sites/MLA/' ;
 	
 	if (searchParams){
-		server +=  'search?q=:' + searchParams
+		server +=  'search?q=:' + searchParams + '&limit=4'
 	}
 
 

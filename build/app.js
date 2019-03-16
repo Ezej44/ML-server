@@ -56,7 +56,7 @@ app.get('/items', function (req, res) {
     var searchParams = req.query.q;
     var server = api + '/sites/MLA/';
     if (searchParams) {
-        server += 'search?q=:' + searchParams;
+        server += 'search?q=:' + searchParams + '&limit=4';
     }
     request(server, { json: true }, function (err, results, body) {
         if (err) {
