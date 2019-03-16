@@ -1,0 +1,19 @@
+{
+  "name": "servidorml2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "typescript": "^3.3.3333"
+  },
+  "devDependencies": {},
+  "description": ""
+}
